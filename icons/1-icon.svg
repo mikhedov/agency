@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277" height="277" viewBox="0 0 277 277">
+    <defs>
+        <path id="b" d="M99.55 199.107C44.57 199.107 0 154.613 0 99.728 0 44.843 44.57.349 99.55.349c54.981 0 99.549 44.494 99.549 99.379 0 54.885-44.568 99.379-99.549 99.379"/>
+        <filter id="a" width="165.3%" height="165.4%" x="-32.6%" y="-27.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.149019608 0 0 0 0 0.235294118 0 0 0 0 0.458823529 0 0 0 0.15 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(39 29)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#D6E7F8" xlink:href="#b"/>
+        </g>
+        <path fill="#FFF" d="M126.536 157.456c-1.18 4.666-2.357 9.334-3.536 14h33c-1.18-4.666-2.36-9.334-3.536-14h-25.928zM157.316 171.456h-36.63c-.932 0-1.686.977-1.686 2.182v.818h40v-.818c0-1.205-.755-2.182-1.684-2.182"/>
+        <path fill="#FFF" d="M84 151.456v8.158c0 1.57 1.223 2.842 2.74 2.842h104.52c1.512 0 2.74-1.272 2.74-2.842v-8.158H84z"/>
+        <path fill="#10265F" d="M194 151.456v-66.27c0-1.51-1.227-2.73-2.74-2.73H86.74a2.731 2.731 0 0 0-2.74 2.73v66.27h110z"/>
+        <path fill="#263C75" d="M88 147.456h101v-60H88z"/>
+        <path fill="#263C75" d="M88 147.456l101-60v60z"/>
+        <path fill="#D1ECFB" d="M95 102.456h31v-2H95z"/>
+        <path fill="#FFF" d="M129 102.456h7v-2h-7z"/>
+        <path fill="#D1ECFB" d="M95 96.456h21v-2H95zM114 109.456h61v-2h-61z"/>
+        <path fill="#FFF" d="M95 109.456h15v-2H95z"/>
+        <path fill="#D1ECFB" d="M102 116.456h48v-2h-48z"/>
+        <path fill="#FFF" d="M153 116.456h9v-2h-9zM102 123.456h10v-2h-10zM102 129.456h10v-2h-10z"/>
+        <path fill="#D1ECFB" d="M115 123.456h50v-2h-50zM115 129.456h24v-2h-24zM141 129.456h29v-2h-29zM115 136.456h33v-2h-33z"/>
+        <path fill="#FFF" d="M95 136.456h17v-2H95zM152 136.456h5v-2h-5z"/>
+    </g>
+</svg>
