@@ -98,6 +98,7 @@ a:hover {
 .main-info {
     max-width: 770px;
     margin: 0 auto;
+    text-align: center;
     padding-top: 70px;
 }
 
@@ -108,7 +109,6 @@ a:hover {
     font-stretch: normal;
     line-height: 1.25;
     letter-spacing: 1px;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -123,25 +123,18 @@ a:hover {
     margin: 0 auto;
 }
 
+
 .button {
     width: 160px;
     height: 48px;
     border-radius: 100px;
     background: linear-gradient(to right, #ff8c2c, #de3f18);
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
-    border: none;
-}
-
-.title-button {
-    font-size: 14px;
-    font-family: Montserrat;
-    font-weight: 500;
-    line-height: 48px;
-    text-align: center;
-    color: #fff;
     letter-spacing: 1px;
+    color: #fff;
     text-transform: uppercase;
-    margin: 0 auto;
+    font-size: 14px;
+    border: none;
 }
 
 .button-header {
@@ -179,10 +172,6 @@ a:hover {
     margin-left: 30px;
 }
 
-.title-who-we-are {
-    text-align: left;
-}
-
 .description {
     padding-top: 15px;
     font-size: 16px;
@@ -205,10 +194,6 @@ a:hover {
     width: 64.8%;
     text-align: center;
     margin: 0 auto;
-}
-
-.title-what-we-do {
-    text-align: center;
 }
 
 .services {
@@ -384,9 +369,6 @@ a:hover {
 .text-contact-us {
     max-width: 770px;
     margin: 0 auto;
-}
-
-.title-contact-us {
     text-align: center;
 }
 
@@ -408,10 +390,6 @@ a:hover {
     display: table;
     overflow: hidden;
     clear: both;
-}
-
-.title-contact-us {
-    text-align: center;
 }
 
 .button-send {
@@ -468,10 +446,7 @@ textarea[type="text"] {
     color: #333333;
     padding: 15px 14px;
     position: relative;
-}
-
-textarea:focus::-webkit-input-placeholder {
-    color: transparent;
+    outline: none;
 }
 
 .footer {
@@ -500,27 +475,6 @@ textarea:focus::-webkit-input-placeholder {
 
 .social-networks {
     float: right;
-}
-
-.fb {
-    width: 9px;
-    height: 19px;
-    background: url(./icons/fb.svg);
-    background-size: cover;
-}
-
-.twitter {
-    width: 21px;
-    height: 16px;
-    background: url(./icons/twitter.svg);
-    background-size: cover;
-}
-
-.linkedin {
-    width: 20px;
-    height: 18px;
-    background: url(./icons/linkedin.svg);
-    background-size: cover;
 }
 
 .contact-us {
