@@ -1,1 +1,1 @@
-Adaptive + Responsive Landing Page: https://sashami.github.io/siteagencyLP/
+Adaptive + Responsive Landing Page: https://smkhdv.github.io/siteagencyLP/
